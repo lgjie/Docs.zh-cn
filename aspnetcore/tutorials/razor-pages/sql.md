@@ -79,7 +79,7 @@ LocalDB 是轻型版的 SQL Server Express 数据库引擎，以程序开发为�
 
 ::: moniker-end
 
-如果 DB 中没有任何电影，则会返回种子初始值设定项，并且不会添加任何电影。
+如果 DB 中存在任何电影数据，则会返回种子初始值设定项，并且不会添加任何电影。
 
 ```csharp
 if (context.Movie.Any())
